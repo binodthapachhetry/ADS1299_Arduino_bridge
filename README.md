@@ -6,6 +6,16 @@ biopotential acquisition).
 
 ---
 
+## Collecting EEG Data
+
+To stream raw EEG data from the ADS1299, upload the example sketch:
+
+```cpp
+examples/stream_eeg/stream_eeg.ino
+```
+
+This sketch configures the ADS1299 for 8-channel, 24-bit data acquisition and streams sample frames over Serial at 115200 baud. See the “Hardware / Wiring” section above for connection details.
+
 ## Features
 * Pure register-level SPI implementation – no dependency on Arduino’s `SPI` class.
 * Full support for ADS1299 system commands (WAKEUP, STANDBY, RESET, START, STOP).
