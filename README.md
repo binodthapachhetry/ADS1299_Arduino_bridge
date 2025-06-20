@@ -110,4 +110,4 @@ sketch.
 
 ## License
 
-MIT © 2024 Oen for commercial and research use. Pull requests welcome.
+MIT © 2024 Open for commercial and research use. Pull requests welcome.
